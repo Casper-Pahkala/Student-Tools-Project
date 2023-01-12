@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/mainMessageLayout"
+    android:layout_marginTop="2dp"
+    android:layout_marginStart="2dp"
+
+    android:layout_marginRight="80dp">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+
+
+        >
+
+        <TextView
+            android:id="@+id/timeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="end|bottom"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="13dp"
+            android:layout_marginBottom="3dp"
+            android:text="18:01"
+
+            android:textColor="#9C9C9C"
+
+            />
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/timeText"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/sender_message_background"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:id="@+id/asd"
+            >
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="30dp"
+                android:visibility="gone"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:indeterminateTint="@color/white"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/nameText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end|top"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:text=""
+                    android:textColor="#4A92FF"
+                    android:textStyle="bold" />
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/messageImageView"
+                    android:layout_width="260dp"
+                    android:layout_height="300dp"
+                    android:layout_below="@+id/nameText"
+                    android:paddingHorizontal="8dp"
+                    android:paddingVertical="5dp"
+                    android:scaleType="centerCrop"
+                    android:visibility="visible"
+                    app:shapeAppearanceOverlay="@style/roundedImageView" />
+            </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/senderMessage"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/messageImageView"
+                android:layout_centerInParent="true"
+                android:fontFamily="sans-serif"
+                android:gravity="end"
+                android:maxWidth="280dp"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:visibility="gone" />
+
+
+
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+</RelativeLayout>

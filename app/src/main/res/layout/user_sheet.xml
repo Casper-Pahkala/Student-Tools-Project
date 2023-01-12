@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/borders"
+    android:paddingBottom="26dp"
+    android:paddingTop="20dp">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Give name please"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:fontFamily="@font/alata"
+        android:textAlignment="center"
+        />
+
+    <EditText
+        android:id="@+id/nameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/borders2"
+        android:hint="Name..."
+        android:paddingStart="20dp" />
+
+    <EditText
+        android:id="@+id/passwordET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameET"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        android:background="@drawable/borders2"
+        android:hint="Password..."
+
+        android:paddingStart="20dp" />
+
+
+    <TextView
+        android:id="@+id/confirmText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordET"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/borders3"
+        android:backgroundTint="#686868"
+        android:fontFamily="@font/alata"
+        android:gravity="center"
+        android:text="Confirm"
+        android:textColor="@color/white"
+        android:textSize="20sp"/>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/borders">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/alata"
+        android:text="Poistetaanko?"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/text"
+        android:layout_marginTop="40dp"
+
+        >
+
+        <TextView
+            android:id="@+id/cancelButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@+id/middle"
+            android:gravity="center"
+            android:text="Peruuta"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+        <View
+            android:id="@+id/middle"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:layout_centerInParent="true"
+            />
+
+        <TextView
+            android:id="@+id/readyButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/middle"
+            android:gravity="center"
+            android:text="Juuu"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

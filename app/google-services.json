@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1025519901248",
+    "firebase_url": "https://kalenteri-dd63c-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "kalenteri-dd63c",
+    "storage_bucket": "kalenteri-dd63c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1025519901248:android:caf554fabc07af7fbf1da5",
+        "android_client_info": {
+          "package_name": "com.example.kalenteri"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1025519901248-3rh9l82mpqodfjuqsd17kain3s47v3bt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOitEaiZ9bZwdFGwymzVaFCqCbPxo0PII"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1025519901248-3rh9l82mpqodfjuqsd17kain3s47v3bt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

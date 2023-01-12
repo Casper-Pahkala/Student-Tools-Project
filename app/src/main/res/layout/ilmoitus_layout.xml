@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/borders2"
+    android:layout_marginTop="10dp"
+    android:id="@+id/layout">
+
+    <TextView
+        android:id="@+id/dateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="14/22"
+        android:textColor="@color/white"
+        android:fontFamily="@font/alata"
+        android:textSize="17sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/timeLeftText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="@font/alata"
+        android:text="Time left: 2 days, 4 hours"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dateText"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="sans-serif-light"
+        android:paddingBottom="10dp"
+        android:text="Essee tulos bruh"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+
+
+
+
+
+
+</RelativeLayout>
